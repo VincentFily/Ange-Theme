@@ -6,12 +6,10 @@ Any suggestions are welcomed !
 
 ## Screenshots
 CSS
-![Getting Started](images/css.jpg)
+![](images/css.jpg)
 JS
-![Getting Started](images/js.jpg)
+![](images/js.jpg)
 PHP
-![Getting Started](images/php.jpg)
+![](images/php.jpg)
 HTML
-![Getting Started](images/html.jpg)# Ange-Theme
-# Ange-Theme
-# Ange-Theme
+![](images/html.jpg)# Ange-Theme

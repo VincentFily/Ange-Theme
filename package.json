@@ -2,7 +2,8 @@
     "name": "angetheme",
     "displayName": "Ange Theme",
     "description": "A minimalist dark theme for VS Code.",
-    "version": "1.0.6",
+    "icon": "images/icon-ange-theme.png",
+    "version": "1.0.13",
     "publisher": "BreizhCoder",
     "repository": {
         "type": "git",
