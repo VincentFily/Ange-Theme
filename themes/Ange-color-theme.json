@@ -329,5 +329,16 @@
 				"foreground": "#fda725"
 			}
 		},
+
+
+		{
+			"name": "JSON Property",
+			"scope": [
+				"support.type.property-name.json",
+			],
+			"settings": {
+				"foreground": "#fb88ff"
+			}
+		},
 	]
 }
