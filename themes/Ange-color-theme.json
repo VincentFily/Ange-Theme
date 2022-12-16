@@ -114,11 +114,15 @@
 			}
 		},
 
+
+
 		{
 			"name": "JS String",
 			"scope": [
 				"string.quoted.single.js",
 				"string.quoted.double.js",
+				"string.quoted.single.ts",
+				"string.quoted.double.ts"
 			],
 			"settings": {
 				"foreground": "#fda725"
@@ -129,6 +133,8 @@
 			"scope": [
 				"variable.other.readwrite.js",
 				"variable.other.object.js",
+				"variable.parameter.ts",
+				"meta.array.literal.ts"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -138,7 +144,8 @@
 			"name": "JS function",
 			"scope": [
 				"entity.name.function.js",
-				"variable.language.this.js"
+				"variable.language.this.js",
+				"entity.name.function.ts"
 			],
 			"settings": {
 				"foreground": "#55ebff"
@@ -148,12 +155,16 @@
 			"name": "JS Key",
 			"scope": [
 				"storage.type.function.js",
-				"storage.type.js"
+				"storage.type.js",
+				"meta.type.annotation.ts",
+				"storage.modifier.ts"
 			],
 			"settings": {
 				"foreground": "#00FF0D"
 			}
 		},
+
+
 
 		{
 			"name": "PHP Variables - Functions keyword",
@@ -271,7 +282,8 @@
 			"name": "HTML Quote",
 			"scope": [
 				"string.quoted.double.html",
-				"string.quoted.single.html"
+				"string.quoted.single.html",
+				
 			],
 			"settings": {
 				"foreground": "#fda725"
@@ -287,6 +299,35 @@
 			}
 		},
 
-		
+
+		{
+			"name": "Angular parameters",
+			"scope": [
+				"entity.other.ng-binding-name"
+			],
+			"settings": {
+				"foreground": "#55ebff"
+			}
+		},
+		{
+			"name": "Angular parameters value",
+			"scope": [
+				"meta.ng-binding.property"
+			],
+			"settings": {
+				"foreground": "#fda725"
+			}
+		},
+		{
+			"name": "Angular parameters value",
+			"scope": [
+				"expression.ng",
+				"punctuation.definition.block.ts",
+				"string.quoted.html",
+			],
+			"settings": {
+				"foreground": "#fda725"
+			}
+		},
 	]
 }
