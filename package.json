@@ -7,7 +7,7 @@
     "publisher": "BreizhCoder",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BreizhCoder/Ange-Theme"
+        "url": "https://github.com/VincentFily/Ange-Theme"
     },
     "engines": {
         "vscode": "^1.58.0"
@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Ange",
+                "label": "Ange V2",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Ange-color-theme.json"
             }
