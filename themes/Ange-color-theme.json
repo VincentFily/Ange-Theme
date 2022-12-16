@@ -7,7 +7,15 @@
 		"editor.background": "#222222",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"gitDecoration.modifiedResourceForeground": "#fdc22c",
+		"editorBracketHighlight.foreground1": "#fdc22c",
+		"editorBracketHighlight.foreground2": "#fc9eff",
+		"editorBracketHighlight.foreground3": "#728cff",
+		"editorBracketHighlight.foreground4": "#fdc22c",
+		"editorBracketHighlight.foreground5": "#fc9eff",
+		"editorBracketHighlight.foreground6": "#728cff",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#fdc22c",
 	},
 	"tokenColors": [
 		{
