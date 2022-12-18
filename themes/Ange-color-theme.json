@@ -6,18 +6,64 @@
 	"colors": {
 		"editor.background": "#222222",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
+		"editor.selectionBackground": "#444444",
+
 		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarSectionHeader.background": "#222222",
+
+		"list.activeSelectionBackground": "#222222",
+		"focusBorder": "#222222",
+
+		"badge.background": "#444444",
+		"badge.foreground": "#aaaaaa",
+
+		"button.background": "#fdc22c",
+		"button.foreground": "#222222",
+
+		"statusBar.background": "#222222",
+		"statusBar.border": "#444444",
+		"statusBar.debuggingBackground": "#fdc22c",
+		
+		"tab.activeForeground": "#bbbbbb",
+		"tab.inactiveForeground": "#666666",
+
+		"statusBar.debuggingForeground": "#222222",
+
+		"menu.selectionForeground": "#fdc22c",
+
 		"gitDecoration.modifiedResourceForeground": "#fdc22c",
+
+		"diffEditor.insertedTextBackground": "#222222",
+		"diffEditorGutter.insertedLineBackground": "#333333",
+
+		"peekView.border": "#fdc22c",
+		"peekViewTitle.background": "#333333",
+		"peekViewEditor.matchHighlightBackground": "#333333",
+		"peekViewResult.lineForeground": "#fdc22c",
+		"peekViewResult.selectionBackground": "#fdc22c",
+		"peekViewResult.background": "#333333",
+
+		"editor.stackFrameHighlightBackground": "#333333",
+		"editorOverviewRuler.addedForeground": "#333333",
+
+		"editorGutter.addedBackground": "#fdc22c",
+		"editorGutter.modifiedBackground": "#88bfff",
+
+		"activityBar.background": "#333333",
+		"activityBarBadge.background": "#333333",
+		"activityBarBadge.foreground": "#fdc22c",
+		"activityBar.activeBorder": "#fdc22c",
+		
 		"editorBracketHighlight.foreground1": "#fdc22c",
 		"editorBracketHighlight.foreground2": "#fc9eff",
-		"editorBracketHighlight.foreground3": "#728cff",
+		"editorBracketHighlight.foreground3": "#88bfff",
 		"editorBracketHighlight.foreground4": "#fdc22c",
 		"editorBracketHighlight.foreground5": "#fc9eff",
-		"editorBracketHighlight.foreground6": "#728cff",
+		"editorBracketHighlight.foreground6": "#88bfff",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#fdc22c",
 	},
 	"tokenColors": [
+		// General
 		{
 			"name": "Comment",
 			"scope": [
@@ -34,6 +80,7 @@
 			}
 		},
 		
+		// CSS
 		{
 			"name": "CSS Classes - ID - TAG - Pseudo",
 			"scope": [
@@ -122,8 +169,7 @@
 			}
 		},
 
-
-
+		// Javascript
 		{
 			"name": "JS String",
 			"scope": [
@@ -172,8 +218,44 @@
 			}
 		},
 
+		// JAVA
+		{
+			"name": "JS String",
+			"scope": [
+				"string.quoted.double.java",
+				"string.quoted.simple.java",
+				"constant.numeric.decimal.java"
+			],
+			"settings": {
+				"foreground": "#fda725"
+			}
+		},
+		{
+			"name": "Package",
+			"scope": [
+				"keyword.other.package.java",
+				"storage.modifier.java",
+				"keyword.other.import.java",
+				"storage.type.primitive.java",
+				"keyword.control.java"
+			],
+			"settings": {
+				"foreground": "#00FF0D"
+			}
+		},
+		{
+			"name": "JS Key",
+			"scope": [
+				"storage.type.java",
+				"entity.name.function.java",
+				"variable.other.object.java"
+			],
+			"settings": {
+				"foreground": "#55ebff"
+			}
+		},
 
-
+		// PHP
 		{
 			"name": "PHP Variables - Functions keyword",
 			"scope": [
