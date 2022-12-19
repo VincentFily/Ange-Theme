@@ -31,7 +31,7 @@
 
 		"menu.selectionForeground": "#fdc22c",
 
-		"gitDecoration.modifiedResourceForeground": "#fdc22c",
+		"gitDecoration.modifiedResourceForeground": "#747474",
 
 		"diffEditor.insertedTextBackground": "#222222",
 		"diffEditorGutter.insertedLineBackground": "#333333",
