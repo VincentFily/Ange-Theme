@@ -11,7 +11,7 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#222222",
 
-		"list.activeSelectionBackground": "#222222",
+		"list.activeSelectionBackground": "#444444",
 		"focusBorder": "#222222",
 
 		"badge.background": "#444444",
@@ -358,6 +358,47 @@
 			}
 		},
 
+		// Twig
+		{
+			"name": "Twig block",
+			"scope": [
+				"punctuation.section.tag.twig",
+				"string.quoted.double.twig",
+				"string.quoted.single.twig"
+			],
+			"settings": {
+				"foreground": "#fda725"
+			}
+		},
+		{
+			"name": "Twig keyword",
+			"scope": [
+				"keyword.control.twig"
+			],
+			"settings": {
+				"foreground": "#55ebff"
+			}
+		},
+		{
+			"name": "Twig functions",
+			"scope": [
+				"support.function.twig"
+			],
+			"settings": {
+				"foreground": "#fdb8ff"
+			}
+		},
+		{
+			"name": "Twig variables",
+			"scope": [
+				"variable.other.twig"
+			],
+			"settings": {
+				"foreground": "#88bfff"
+			}
+		},
+
+		// HTML
 		{
 			"name": "HTML Tags",
 			"scope": [
@@ -389,7 +430,7 @@
 			}
 		},
 
-
+		// Angular
 		{
 			"name": "Angular parameters",
 			"scope": [
