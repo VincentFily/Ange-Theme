@@ -280,7 +280,9 @@
 			"name": "PHP Variables - Functions names",
 			"scope": [
 				"storage.type.function.php",
-				"keyword.control.return.php"
+				"keyword.control.return.php",
+				"entity.name.function.php",
+				"keyword.other.use.php"
 			],
 			"settings": {
 				"foreground": "#88bfff"
@@ -357,7 +359,18 @@
 				"foreground": "#ffffff"
 			}
 		},
-
+		{
+			"name": "PHP Sections",
+			"scope": [
+				"support.other.namespace.php",
+				"meta.attribute.php"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#777777"
+			}
+		},
+		
 		// Twig
 		{
 			"name": "Twig block",
@@ -423,7 +436,6 @@
 		{
 			"name": "HTML Attributes",
 			"scope": [
-				
 			],
 			"settings": {
 				"foreground": "#55ebff"
@@ -461,7 +473,7 @@
 			}
 		},
 
-
+		// JSON
 		{
 			"name": "JSON Property",
 			"scope": [

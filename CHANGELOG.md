@@ -8,3 +8,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 - v2.0.5 : Add Twig support
+- v2.0.6 : Optimisation PHP/Symfony
